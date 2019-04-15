@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ANIMAL">
+      <UniqueIdentifier>{bae0ce43-9c9c-4561-bdc4-a9d8b9209f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LANE">
+      <UniqueIdentifier>{99e9ccee-9751-42f8-8c2c-3837c85583ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LIB">
+      <UniqueIdentifier>{b07252f3-4d38-4087-bdf8-797d436a615e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TRAFFIC">
+      <UniqueIdentifier>{939c0b85-945d-4ee7-8097-ac509fa51332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LIB">
+      <UniqueIdentifier>{46b88aa6-e147-4c59-8b36-1b7cd191bdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ANIMAL">
+      <UniqueIdentifier>{421f8754-42b4-418b-901b-52c9601c25ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TRAFFIC">
+      <UniqueIdentifier>{ca7c9cc1-7600-47e6-a15c-8a9888639d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LANE">
+      <UniqueIdentifier>{369b85c0-c8fb-4093-b04b-95b7f439cd82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib.cpp">
+      <Filter>Source Files\LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\LIB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUMAN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANIMAL.h">
+      <Filter>Header Files\ANIMAL</Filter>
+    </ClInclude>
+    <ClInclude Include="LANE.h">
+      <Filter>Header Files\LANE</Filter>
+    </ClInclude>
+    <ClInclude Include="ROAD.h">
+      <Filter>Header Files\LANE</Filter>
+    </ClInclude>
+    <ClInclude Include="ROADSIDE.h">
+      <Filter>Header Files\LANE</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>Header Files\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupGame.h">
+      <Filter>Header Files\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="TRAFFICLIGHT.h">
+      <Filter>Header Files\TRAFFIC</Filter>
+    </ClInclude>
+    <ClInclude Include="VEHICLE.h">
+      <Filter>Header Files\TRAFFIC</Filter>
+    </ClInclude>
+    <ClInclude Include="CAR.h">
+      <Filter>Header Files\TRAFFIC</Filter>
+    </ClInclude>
+    <ClInclude Include="TRUCK.h">
+      <Filter>Header Files\TRAFFIC</Filter>
+    </ClInclude>
+    <ClInclude Include="DOI.h">
+      <Filter>Header Files\ANIMAL</Filter>
+    </ClInclude>
+    <ClInclude Include="KLONG.h">
+      <Filter>Header Files\ANIMAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
